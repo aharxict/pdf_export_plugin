@@ -1,0 +1,95 @@
+.bpe_form select{
+    min-width:320px;
+    min-height:250px;
+    padding:5px;
+}
+
+.bpe_form_select-network_type select{
+    min-height:65px;
+    height:65px !important;
+}
+.bpe_form select option{
+    padding:3px 3px;
+}
+
+.bpe_form_btn-wrap{
+    margin-top:20px;
+}
+
+.bpe_form_select-wrap{
+    display:block;
+    margin-right:30px;
+    margin-bottom:20px;
+}
+
+.bpe_form_select-wrap .select_label{
+    display:block;
+    font-size:16px;
+    margin:0 0 15px 0;
+}
+
+.bpe_form_text-wrap.intro p{
+    font-size:14px;
+}
+
+.bpe_form_text-wrap.warning p{
+    font-size:12px;
+}
+
+.bpe_form_text-wrap .red{
+    color:#f00
+}
+
+
+.bpe_error{
+    font-size:16px;
+    color:#f00;
+    margin:10px 0;
+}
+
+.bpe_result{
+    color:#0085ba;
+    display:block;
+    margin:10px 0;
+    font-size:16px;
+}
+
+/*Select2 overrides*/
+.select2-selection__rendered{
+    padding:4px !important;
+}
+.select2-selection__choice{
+    margin:3px;
+}
+
+.select2-search__field{
+    width:100% !important;
+    padding-left:25px; 
+    position:absolute;
+
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+    display: none;
+}
+
+.select2-container--default .select2-selection--multiple{
+    border:1px solid #ccc !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 0px !important;;
+    color: #999;
+    border: 1px solid #ED4337;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 13px;
+    text-align: center;
+}
+
+
